@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+    <button class="mode-toggle" onclick="toggleMode()">🌙 Dark Mode</button>
+    
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Pokédex</h1>
+            <p>Descubra todos os Pokémon!</p>
+        </div>
+
+        <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="search-input" id="searchInput" placeholder=" Pesquise pelo nome..." oninput="searchPokemon()">
+        </div>
+
+        <div class="pokemon-grid" id="pokemonGrid">
+            <div class="loading">Carregando Pokémon...</div>
+        </div>
+
+        <div class="nav-buttons" id="navButtons" style="display: none;">
+            <button class="nav-btn prev-btn" onclick="previousPokemon()">⬅️ Anterior</button>
+            <button class="nav-btn next-btn" onclick="nextPokemon()">Próximo ➡️</button>
+        </div>
+    </div>
+
+    <div class="modal" id="pokemonModal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">×</span>
+            <div class="modal-header">
+                <img id="modalPokemonImage" class="modal-pokemon-image" src="" alt="">
+                <h2 id="modalPokemonName"></h2>
+                <div id="modalPokemonTypes" class="pokemon-types"></div>
+                <span id="modalPokemonId" class="pokemon-id"></span>
+            </div>
+            <div class="stats-grid" id="modalStats"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
