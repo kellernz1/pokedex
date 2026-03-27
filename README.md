@@ -1,136 +1,67 @@
-🔍 Interactive Pokédex
-A modern and complete Pokédex built with HTML, CSS, and JavaScript that fetches data from the PokéAPI in real-time. Fully responsive interface with Dark/Light mode, smart search, and progressive loading of ALL Pokémon (up to 9th generation)!
+🔍 Pokédex Web App
+
+A modern and interactive Pokédex web application built with HTML, CSS, and JavaScript.
+Browse, search, and explore Pokémon with a clean UI, smooth animations, and dynamic loading.
 
 🌐 Live Demo
-👉 Interactive Pokédex (Deploy your own!)
+
+👉 https://kellernz1.github.io/pokedex
 
 🚀 Features
-🔍 Smart Search
-Search by name and get instant results from all loaded Pokémon.
-
-📱 100% Responsive
-Perfect on mobile, tablet, and desktop with adaptive grid.
-
-🌙☀️ Dark/Light Mode
-Smooth toggle with fixed button and fluid transitions.
-
-📊 Animated Stats
-HP, Attack, Defense bars with smooth animations in modal.
-
-🎨 Official Type Colors
-18 types with authentic gradients and badges.
-
-📥 Progressive Loading
-"Load More" button (30 at a time) up to 1025+ Pokémon without lag!
-
-🖼️ Official Images
-Front sprites + official artwork from PokéAPI.
-
-⏭️ Quick Navigation
-Previous/Next in modal for easy browsing.
-
+🔍 Real-Time Search
+Instantly search Pokémon by name with dynamic filtering.
+📦 Progressive Loading System
+Pokémon are loaded in batches to improve performance.
+🎨 Modern UI Design
+Responsive layout with smooth animations, shadows, and gradients.
+🌙☀️ Dark / Light Mode
+Toggle between themes with a smooth transition.
+🧾 Detailed Pokémon Modal
+Click any Pokémon to view stats, types, and official artwork.
+📊 Animated Stats Bars
+Visual representation of Pokémon attributes.
+📥 Load More System
+Load additional Pokémon in chunks instead of overwhelming the UI.
+⚡ Optimized Performance
+Lazy loading images and incremental rendering for speed.
 📁 Project Structure
-text
 pokedex/
 │
 ├── index.html      # Main structure
-├── style.css       # Styling (Dark/Light + responsive)
-├── script.js       # Logic + PokéAPI + animations
+├── style.css       # Styling (Dark/Light mode + UI)
+├── script.js       # App logic and API integration
 └── README.md       # Project documentation
 ▶️ How to Run
-Method 1: Direct in Browser (Recommended)
-text
-1. Download the 3 files
-2. Open index.html in your browser
-3. Done! 🎉
-Method 2: Local Server
-bash
-# With Live Server (VS Code)
-Extension: Live Server → Right Click → "Open with Live Server"
+Download or clone this repository
+Open the index.html file in your browser
 
-# Or with Python
-python -m http.server 8000
-No external dependencies required!
+No installation or dependencies required.
 
+🌐 API Used
+
+This project uses the public Pokémon API:
+
+https://pokeapi.co/
 🛠️ Technologies Used
-HTML5 - Modern semantics
-
-CSS3 - Grid, Flexbox, Animations, Glassmorphism
-
-Vanilla JavaScript - Fetch API, Async/Await
-
-PokéAPI - Official real-time data
-
-🎮 How to Use
-Search any Pokémon by name
-
-Click cards to see full details
-
-Load more Pokémon with the bottom button
-
-Navigate with Previous/Next in modal
-
-Switch theme with top-right button
-
-Search examples: pikachu, charizard, mewtwo, rayquaza
-
-📊 Performance & Optimizations
-✅ Lazy Loading on images
-
-✅ Renders only new cards
-
-✅ 30 Pokémon per click - maximum speed
-
-✅ Smart data caching
-
-✅ 4-digit IDs (#0001 to #1025)
-
+HTML5
+CSS3 (Flexbox, Grid, Animations)
+Vanilla JavaScript (Fetch API)
 📌 Future Improvements
-🎯 Filters by Type/Generation
-
-⚡ PWA (Offline + Installable)
-
-📈 Stats Charts (Chart.js)
-
-🔗 Favorites with LocalStorage
-
-🗺️ Evolution Trees
-
-🌍 Multi-language Support
-
+📱 Better mobile UX (gestures & optimization)
+⭐ Favorite Pokémon system
+🔊 Sound effects for interactions
+📊 Advanced filters (type, generation, stats)
+🌐 Offline support (PWA)
 📄 License
-This project is open-source and free to use under MIT License.
 
-text
-MIT License
-Copyright (c) 2026 Keller Nascimento
+This project is open-source and free to use.
+
 💡 Author Notes
-Built with ❤️ for Pokémon fans! Total focus on:
 
-Smooth experience without lag
+This project was designed to simulate a modern Pokédex experience, focusing on:
 
-Premium design (Glassmorphism + Gradients)
+Performance with large datasets
+Clean and responsive UI
+Scalable and maintainable code
 
-Clean, commented code
-
-Full accessibility
-
-Tested on: Chrome, Firefox, Safari, Edge (Mobile + Desktop)
-
-⭐ Contributions
-Fork the repository
-
-Create a Branch (git checkout -b feature)
-
-Commit changes (git commit -m 'feat: new feature')
-
-Push to branch (git push origin feature)
-
-Open a Pull Request
-
-🙌 Acknowledgments
-PokéAPI - Free official data
-
-Game Freak - For creating Pokémon! 🐾
-
-⭐ If you liked this project, give it a star on GitHub and share!
+⭐ If you liked this project, consider giving it a star on GitHub!
