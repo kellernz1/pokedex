@@ -1,79 +1,96 @@
-🔍 Pokédex Web App
+# 🔎 Pokédex Web App
 
-A modern and interactive Pokédex web application built with HTML, CSS, and JavaScript.
-Browse, search, and explore Pokémon with a clean UI, smooth animations, and dynamic loading.
+A modern web application that allows users to explore and search Pokémon with a clean interface and smooth experience.
 
-🌐 Live Demo
+---
+
+## 🚀 Live Demo
 
 👉 https://kellernz1.github.io/pokedex
 
-🚀 Features
+---
 
-🔍 Real-Time Search
-Instantly search Pokémon by name with dynamic filtering.
+## 🚀 Features
 
-📦 Progressive Loading System
-Pokémon are loaded in batches to improve performance.
+* 🔍 Search Pokémon by name or ID
+* 📖 View Pokémon details (type, stats, abilities)
+* 🖼️ Display official Pokémon images
+* 📱 Responsive design (works on desktop & mobile)
+* 🎨 Modern UI (clean and minimal style)
+* ⚡ Fast data fetching using API
 
-🎨 Modern UI Design
-Responsive layout with smooth animations, shadows, and gradients.
+---
 
-🌙☀️ Dark / Light Mode
-Toggle between themes with a smooth transition.
+## 🛠️ Tech Stack
 
-🧾 Detailed Pokémon Modal
-Click any Pokémon to view stats, types, and official artwork.
+* Frontend: HTML, CSS, JavaScript
+* API: PokeAPI
 
-📊 Animated Stats Bars
-Visual representation of Pokémon attributes.
+---
 
-📥 Load More System
-Load additional Pokémon in chunks instead of overwhelming the UI.
+## 📁 Project Structure
 
-⚡ Optimized Performance
-Lazy loading images and incremental rendering for speed.
+```id="v3k2z1"
+/pokedex
+  ├── index.html
+  ├── style.css
+  ├── script.js
+  └── README.md
+```
 
-📁 Project Structure
-pokedex/
-│
-├── index.html      # Main structure
-├── style.css       # Styling (Dark/Light mode + UI)
-├── script.js       # App logic and API integration
-└── README.md       # Project documentation
+---
 
-▶️ How to Run
-Download or clone this repository
-Open the index.html file in your browser
+## ⚙️ Installation
 
-No installation or dependencies required.
+### 1. Clone the repository
 
-🌐 API Used
+git clone https://github.com/kellernz1/pokedex.git
+cd pokedex
 
-This project uses the public Pokémon API:
+---
 
-https://pokeapi.co/
+### 2. Open the project
 
-🛠️ Technologies Used
-HTML5
-CSS3 (Flexbox, Grid, Animations)
-Vanilla JavaScript (Fetch API)
+Just open the `index.html` file in your browser
 
-📌 Future Improvements
-📱 Better mobile UX (gestures & optimization)
-⭐ Favorite Pokémon system
-🔊 Sound effects for interactions
-📊 Advanced filters (type, generation, stats)
-🌐 Offline support (PWA)
-📄 License
+or use a local server:
 
-This project is open-source and free to use.
+```bash id="f4g2ks"
+npx live-server
+```
 
-💡 Author Notes
+---
 
-This project was designed to simulate a modern Pokédex experience, focusing on:
+## 📥 Usage
 
-Performance with large datasets
-Clean and responsive UI
-Scalable and maintainable code
+1. Open the application
+2. Type a Pokémon name or number
+3. View detailed information instantly
 
-⭐ If you liked this project, consider giving it a star on GitHub!
+---
+
+## ⚠️ Disclaimer
+
+This project is for educational purposes only.
+All Pokémon data is provided by the PokeAPI.
+
+---
+
+## 💡 Future Improvements
+
+* ⭐ Favorite Pokémon system
+* 🌙 Dark/Light mode toggle
+* 📊 More detailed stats visualization
+* 🔊 Pokémon sounds integration
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Keller Nz**
+
+---
+
+## ⭐ Contribute
+
+Feel free to fork this project and submit pull requests!
